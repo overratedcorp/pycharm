@@ -120,5 +120,8 @@ fi
 eval "$(direnv hook bash)"
 
 # terraform aliases
+if [ -n "${AWSU_ENABLE:-}" ]; then
+  alias terraform='awsu -g manual -- terraform'
+fi
 alias ta='terraform apply plan.tfplan'
 alias tp='terraform plan -out plan.tfplan'

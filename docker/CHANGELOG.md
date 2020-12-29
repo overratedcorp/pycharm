@@ -15,3 +15,9 @@
 -   Docker v.19.03.9
 -   AWSU v.2.3.2
 -   Additional libraries (libgbm1, libxss1)
+
+## 1.0.1 (2020-12-29)
+
+### Added
+
+-   Conditional loading of AWSU bash aliases

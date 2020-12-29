@@ -32,5 +32,5 @@ locals {
     terraform = ".terraform.d",
     ssh       = ".ssh",
   }
-  registry_url = "rezultat/pycharm:1.0.0"
+  registry_url = "rezultat/pycharm:1.0.1"
 }
